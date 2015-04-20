@@ -1,1 +1,8 @@
-You log goes in this  file.
+
+Start: Sun, 19 Apr 2015 16:56:00
+End: Sun, 19 Apr 2015 17:19:23 -0700
+Tasks: fixed parseGit function to parse date correctly
+
+Start: Sun, 19 Apr 2015 15:40:00
+End: Sun, 19 Apr 2015 16:50:51 -0700
+Tasks: wrote required functions in functions.js
