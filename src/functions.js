@@ -14,8 +14,8 @@
 
 //your code here
 function uselessFunction() {
-   var useless = null;
-   return useless;
+  var useless = null;
+  return useless;
 }
 //end your code
 
@@ -33,14 +33,15 @@ var barType = typeof bar;
 */
 
 //your code here
-   bar = function(doubleArray){
-      for(var i = 0; i < doubleArray.length; i++){
-         if(typeof doubleArray[i] !== "number")
-		    return false;
-	   doubleArray[i] *= 2;
-      }
-	  return true;
-   }
+bar = function(doubleArray){
+  var i;
+  for(i = 0; i < doubleArray.length; i++){
+    if(typeof doubleArray[i] !== "number")
+	  return false;
+	doubleArray[i] *= 2;
+  }
+  return true;
+}
 //end your code
 
 /**
@@ -51,9 +52,9 @@ var barType = typeof bar;
 * @property {string} message - the commit message
 */
 function GitLog(hash, date, message) {
-    this.hash = hash;
-    this.date = date;
-    this.message = message;
+   this.hash = hash;
+   this.date = date;
+   this.message = message;
 }
 
 /**
@@ -77,10 +78,11 @@ function GitLog(hash, date, message) {
 
 //your code here
 function parseGit(logArray) {
-   gitLogArray = [];
-      for(var i = 0; i < logArray.length; i++){
-	     gitLogArray[i] = new GitLog( logArray[i].substring(0, logArray[i].indexOf(" ")), new Date(logArray[i].substring(logArray[i].indexOf(" ")+1, logArray[i].indexOf("\""))), logArray[i].substring(logArray[i].indexOf("\""), logArray[i].length);
-	}
-	return gitLogArray;
+  gitLogArray = [];
+  var i;
+  for(i = 0; i < logArray.length; i++){
+    gitLogArray[i] = new GitLog( logArray[i].substring(0, logArray[i].indexOf(" ")), new Date(logArray[i].substring(logArray[i].indexOf(" ")+1, logArray[i].indexOf("\""))), logArray[i].substring(logArray[i].indexOf("\""), logArray[i].length);
+  }
+  return gitLogArray;
 }
 //end your code
