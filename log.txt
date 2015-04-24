@@ -1,3 +1,7 @@
+Start: Sun, 19 Apr 2015 22:00:00
+End: Sun, 19 Apr 2015 22:35:15 -0700
+Tasks: finished first requirement in objects.js and fixed errors in functions.js
+
 Start: Sun, 19 Apr 2015 19:02:00
 End: Sun, 19 Apr 2015 19:36:51 -0700
 Tasks: wrote required functions in variables.js
