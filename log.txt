@@ -1,4 +1,8 @@
 Start: Thu, 23 Apr 2015 17:31:59
+End: Fri, 24 Apr 2015 23:05:44 -0700
+Tasks: finished all remaining parts in objects.js and fixed errors to pass the tests
+
+Start: Thu, 23 Apr 2015 17:31:59
 End: Thu, 23 Apr 2015 18:16:08 -0700
 Tasks: completly fixed functions.js to pass tests and format
 
